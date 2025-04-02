@@ -56,18 +56,18 @@ footer p {
 }
 
 .back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: #333;
-  color: white;
-  padding: 8px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
+  position: absolute !important;
+  top: 20px !important;
+  left: 20px !important;
+  background-color: #333 !important;
+  color: white !important;
+  padding: 8px 15px !important;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+  transition: background-color 0.3s ease !important;
 }
 
 .back-button:hover {
-  background-color: #555;
+  background-color: #555 !important;
 }
