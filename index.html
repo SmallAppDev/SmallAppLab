@@ -3,43 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Download various programs from SmallAppDev">
-    <meta name="keywords" content="download, programs, software, SmallAppDev">
-    <meta name="author" content="SmallAppDev">
-    <title>SmallAppLab</title>
+    <title>Home - SmallAppLab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to SmallAppLab</h1>
-        <p>Download the best software programs</p>
+
+    <header class="hero d-flex align-items-center justify-content-center text-center text-white">
+        <div class="container">
+            <h1 class="display-3 fw-bold">SmallAppLab</h1>
+            <p class="lead">Download the best software programs</p>
+        </div>
     </header>
 
-    <main>
-        <section id="programs">
-            <h2>Our Programs</h2>
-            <p>Explore and download our software tools designed for various purposes.</p>
-
-            <div class="program-card">
-                <h3>Program 1</h3>
-                <p>Description of Program 1 with more details.</p>
-                <a href="#" download>
-                    <button class="download-btn">Download Program 1</button>
-                </a>
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Available Software</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card software-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Software 1</h5>
+                        <p class="card-text">Description of Software 1.</p>
+                        <a href="template.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="program-card">
-                <h3>Program 2</h3>
-                <p>Description of Program 2 with more details.</p>
-                <a href="#" download>
-                    <button class="download-btn">Download Program 2</button>
-                </a>
+            <div class="col-md-4">
+                <div class="card software-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Software 2</h5>
+                        <p class="card-text">Description of Software 2.</p>
+                        <a href="software2.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <div class="col-md-4">
+                <div class="card software-card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Software 3</h5>
+                        <p class="card-text">Description of Software 3.</p>
+                        <a href="software3.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="text-center text-white bg-dark py-3">
         <p>abc</p>
     </footer>
+
 </body>
 </html>
