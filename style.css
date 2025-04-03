@@ -84,26 +84,26 @@ footer a:hover {
 
 
 .docs_container {
-  width: 40%;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-left: 30%;
-  margin-right: 30%; 
+  width: 40% !important;
+  background: white !important;
+  padding: 20px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  text-align: center !important;
+  margin-left: 30% !important;
+  margin-right: 30% !important; 
 }
 
 @media (max-width: 800px) {
   .docs_container {
-    margin-left: 5%; 
-    margin-right: 5%; 
-    width: 90%; 
+    margin-left: 5% !important; 
+    margin-right: 5% !important; 
+    width: 90% !important; 
   }
 
   .container {
-    margin-left: 5%; 
-    width: 90%;  
+    margin-left: 5% !important; 
+    width: 90% !important;  
   }
 
   header h1 {
@@ -120,24 +120,24 @@ footer a:hover {
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #fff;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  background: #fff !important;
 }
 th, td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+  padding: 12px !important; 
+  text-align: left !important;
+  border-bottom: 1px solid #ddd !important;
 }
 th {
-  background-color: #3b3b3b;
-  color: white;
+  background-color: #3b3b3b !important;
+  color: white !important;
 }
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #f2f2f2 !important;
 }
 .disclaimer {
-  font-size: 0.9em;
+  font-size: 0.9em !important;
   color: rgb(0, 0, 0);
   margin-top: 10px;
   text-decoration: none !important;
