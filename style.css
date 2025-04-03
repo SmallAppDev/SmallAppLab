@@ -73,7 +73,39 @@ footer a:hover {
   background-color: #555 !important;
 }
 
-@media (max-width: 768px) {
+/*
+@media (max-width: 800px) {
+  .container {
+      margin-left: 5%; 
+      width: 90%;  
+  }
+}
+*/
+
+
+.docs_container {
+  width: 40%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%; 
+}
+
+@media (max-width: 800px) {
+  .docs_container {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%; 
+  }
+
+  .container {
+    margin-left: 5%; 
+    width: 90%;  
+  }
+
   header h1 {
       font-size: 24px;
   }
@@ -86,3 +118,32 @@ footer a:hover {
       padding: 10px 18px;
   }
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #3b3b3b;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.disclaimer {
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  text-decoration: none !important;
+}
+
+.Download {
+  margin-bottom: 30px !important;
+}
+
