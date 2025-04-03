@@ -23,6 +23,8 @@ main {
 .software-card {
   border: none;
   transition: transform 0.3s ease-in-out;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 header {
